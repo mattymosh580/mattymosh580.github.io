@@ -1,0 +1,222 @@
+* {
+  box-sizing: border-box;
+}
+
+/* Style the body */
+body {
+  font-family: Arial, Helvetica, sans-serif;
+  margin: 0;
+}
+
+/* Style the top navigation bar */
+#navigation-container {
+  width: 1200px;
+  margin: 0 auto;
+  height: 70px;
+}
+
+
+.soon{
+background: #111;
+  text-align: center;
+  padding: 400px;
+
+  color: #fff;
+  font-size: 100px;
+}
+
+
+.navigation-bar {
+  background-color: #fff;
+  height: 70px;
+  width: 100%;
+  text-align:center;
+}
+
+.navigation-bar img{
+float:left;
+max-width: 5%;
+}
+.navigation-bar ul {
+  padding: 0px;
+  margin: 0px;
+  text-align: center;
+  display:inline-block;
+  vertical-align:top;
+}
+
+.navigation-bar li {
+  list-style-type: none;
+  padding: 0px;
+  height: 24px;
+  margin-top: 4px;
+  margin-bottom: 4px;
+  display: inline;
+}
+
+.navigation-bar li a {
+  color: black;
+  font-size: 16px;
+  font-family: "Trebuchet MS", Arial, Helvetica, sans-serif;
+  text-decoration: none;
+  line-height: 70px;
+  padding: 5px 15px;
+  opacity: 0.7;
+}
+
+.icons{
+  float: right;
+  padding-top: 20px;
+}
+
+.icons a{
+  padding: 10px;
+}
+
+/* Main column */
+
+
+#bgVideo {
+/*  making the video fullscreen  */
+position: fixed;
+left: 0; 
+top: 0;
+min-width: 100%; 
+min-height: 100%;
+z-index: -10;
+}
+
+.headingName{
+  margin: 0 auto;
+}
+
+.collection-List{
+  text-align: center;
+  background: #111;
+  padding-top: 30px;
+  padding-bottom: 30px;
+  margin: 0;
+}
+
+.collection-List li{
+  list-style-type: none;
+  display:inline-block;
+  padding-left: 40px;
+}
+
+.collection-List li a{
+  text-decoration: none;
+}
+
+.collection-List li a h1{
+  color: #f1f1f1;
+}
+
+.collection-List li a img{
+  height: 500px;
+}
+
+.slide-section{
+  background: rgba(0, 0, 0, 0.8);
+  color: #f1f1f1;
+  width: 100%;
+  padding: 20px;
+  margin: 0px auto;
+}
+
+.slide-section img{
+  margin: 0px auto;
+  height: 900px;
+  width: auto;
+}
+
+.footer{
+  background:#111;
+  padding:1px 0px;
+  font-family: 'Play', sans-serif;
+  text-align:center;
+  }
+  
+  .footer .row{
+  width:100%;
+  margin:1% 0%;
+  padding:0.2% 0%;
+  color:gray;
+  font-size:0.8em;
+  }
+  
+  .footer .row a{
+  text-decoration:none;
+  color:gray;
+  transition:0.5s;
+  }
+  
+  .footer .row a:hover{
+  color:#fff;
+  }
+  
+  .footer .row ul{
+  width:100%;
+  }
+  
+  .footer .row ul li{
+  display:inline-block;
+  margin:0px 20px;
+  }
+  
+  .footer .row a i{
+  font-size:2em;
+  margin:0% 1%;
+  }
+
+  .fa{
+    width: 2rem;
+    height: 2rem;
+  }
+
+  .fa-facebook{
+    content: url(/resources/images/Logos/f_logo_RGB-Blue_144.png);
+
+  }
+  .fa-instagram{
+    content: url(/resources/images/Logos/Instagram_Glyph_Gradient.png);
+  }
+  .fa-tiktok{
+    content: url(/resources/images/Logos/tiktok.png);
+  }
+  .fa-twitter{
+    content: url(/resources/images/Logos/Twitter.png);
+  }
+  
+  @media (max-width:720px){
+  .footer{
+  text-align:left;
+  padding:5%;
+  }
+
+  .footer .row ul li{
+  display:block;
+  margin:5px 0px;
+  text-align:left;
+  }
+
+  .footer .row a i{
+  margin:0% 3%;
+  }
+
+}
+
+/* Responsive layout - when the screen is less than 700px wide, make the two columns stack on top of each other instead of next to each other */
+@media screen and (max-width: 700px) {
+  .row {   
+    flex-direction: column;
+  }
+}
+
+/* Responsive layout - when the screen is less than 400px wide, make the navigation links stack on top of each other instead of next to each other */
+@media screen and (max-width: 400px) {
+  .navbar a {
+    float: none;
+    width: 100%;
+  }
+}

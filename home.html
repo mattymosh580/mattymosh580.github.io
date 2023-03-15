@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+<html lang="en">
+
+  <head>
+      <title>Home</title>
+      <meta charset="UTF-8">
+      <meta name="viewport" content="width=device-width, initial-scale=1">
+      <link href="/resources/style sheets/Main_Style_Sheet.css" rel="stylesheet" type="text/css"/>
+
+  </head>
+
+  <body>
+    
+    <div class="navigation-bar">
+
+      <div id="navigation-container">
+    
+        <div class="row">
+          <a href="/home.html"><img src="/resources/images/Logos/logo1.png"></a>
+        </div>
+    
+        <div class="row icons">
+          <a href="https://www.facebook.com/profile.php?id=100090113275801"><i class="fa fa-facebook"></i></a>
+          <a href="https://www.instagram.com/slammedimpulse/"><i class="fa fa-instagram"></i></a>
+          <a href="https://www.tiktok.com/@slammedimpulse?is_from_webapp=1&sender_device=pc"><i class="fa fa-tiktok"></i></a>
+          <a href="#"><i class="fa fa-twitter"></i></a>
+        </div>
+
+        <div class="row">
+          <ul>
+            <li><a href="/home.html">Home</a></li>
+            <li><a href="/events.html">Events</a></li>
+            <li><a href="/register.html">Register</a></li>
+            <li><a href="https://slammedimpulseshop.com">Shop</a></li>
+            <li><a href="/media.html">Media</a></li>
+            <li><a href="/contact.html">Contact</a></li>
+          </ul>
+        </div>
+
+
+
+      </div>
+
+    </div>
+
+      <div class="main">
+
+        <video autoplay muted loop plays-inline id="bgVideo">
+          <source src="resources/videos/backgroundVid.mp4" type="video/mp4">
+        </video>
+
+        <div class="content">
+
+          <div>
+            <img src="/resources/images/Logos/full logo white.png" class="headingName">
+          </div>
+            
+
+          <ul class="collection-List">
+            <li><a href="https://slammedimpulse.com/collections/frontpage">
+              <h1 class="text">Official Merch</h1>
+              <img src="//cdn.shopify.com/s/files/1/0732/5833/6558/products/mens-classic-tee-black-back-640ebe192ead3.jpg?v=1678694097&amp;width=1500">
+            </a></li>
+            <li><a href="https://slammedimpulse.com/collections/oni-collection">
+              <h1 class="text">Oni Series</h1>
+              <img src="//cdn.shopify.com/s/files/1/0732/5833/6558/products/mens-classic-tee-black-back-640c3bc1ea883.jpg?v=1678523344&amp;width=1500">
+            </a></li>
+            <li><a href="https://slammedimpulse.com/collections/accessories">
+              <h1 class="text">Accessories</h1>
+              <img src="//cdn.shopify.com/s/files/1/0732/5833/6558/products/mens-athletic-shoes-white-front-6410ead19fb85.jpg?v=1678830419&amp;width=1500">
+            </a></li>
+          </ul>
+
+          <div class="slide-section">
+            <img class="mySlides" src="/resources/images/img1.jpg">
+            <img class="mySlides" src="/resources/images/img2.jpg">
+            <img class="mySlides" src="/resources/images/img3.jpg">
+          </div>
+
+        </div>
+
+
+
+
+
+          <script>
+            var myIndex = 0;
+            carousel();
+            
+            function carousel() {
+              var i;
+              var x = document.getElementsByClassName("mySlides");
+              for (i = 0; i < x.length; i++) {
+                x[i].style.display = "none";  
+              }
+              myIndex++;
+              if (myIndex > x.length) {myIndex = 1}    
+              x[myIndex-1].style.display = "block";  
+              setTimeout(carousel, 4000); // Change image every 2 seconds
+            }
+          </script>
+          
+        </div>
+
+      </div>
+
+      <footer>
+        <div class="footer">
+          <div class="row">
+            <a href="https://www.facebook.com/profile.php?id=100090113275801"><i class="fa fa-facebook"></i></a>
+            <a href="https://www.instagram.com/slammedimpulse/"><i class="fa fa-instagram"></i></a>
+            <a href="https://www.tiktok.com/@slammedimpulse?is_from_webapp=1&sender_device=pc"><i class="fa fa-tiktok"></i></a>
+            <a href="#"><i class="fa fa-twitter"></i></a>
+          </div>
+        
+          <div class="row">
+            <ul>
+              <li><a href="/contact.html">Contact us</a></li>
+              <li><a href="/privacy.html">Privacy Policy</a></li>
+              <li><a href="/terms.html">Terms & Conditions</a></li>
+              <li><a href="#"></a></li>
+            </ul>
+          </div>
+        
+          <div class="row">
+            Copyright © 2023 Slammed Impulse - All rights reserved
+          </div>
+        </div>
+      </footer>
+
+  </body>
+</html>

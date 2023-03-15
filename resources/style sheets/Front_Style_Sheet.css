@@ -1,0 +1,38 @@
+body{
+    margin: 0;
+    padding: 0;
+    height: 100%;
+}
+
+.img1{
+    background: url("../images/img1.jpg");
+}
+
+.img2{
+    background: url("../images/img2.jpg");
+}
+
+.img3{
+    background: url("../images/img3.jpg");
+}
+
+.logo{
+    background: url("../images/Logos/logo1");
+}
+
+.bg_img{
+    background-size: cover;
+    overflow :hidden;
+    min-height:1500px;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.navigation-bar{
+
+    position: fixed;
+    center: top;
+    z-index: 2;
+}
+
+
