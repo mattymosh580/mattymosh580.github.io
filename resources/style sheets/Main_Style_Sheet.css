@@ -114,22 +114,6 @@ z-index: -10;
   height: 500px;
 }
 
-
-
-.slide-section{
-  background: rgba(0, 0, 0, 0.8);
-  color: #f1f1f1;
-  width: 100%;
-  padding: 20px;
-  margin: 0px auto;
-}
-
-.slide-section img{
-  margin: 0px auto;
-  height: 900px;
-  width: 100%;
-}
-
 .footer{
   background:#111;
   padding:1px 0px;
