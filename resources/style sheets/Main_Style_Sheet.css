@@ -8,23 +8,21 @@ body {
   margin: 0;
 }
 
+.soon{
+  background: #111;
+    text-align: center;
+    padding: 400px;
+  
+    color: #fff;
+    font-size: 100px;
+  }
+
 /* Style the top navigation bar */
 #navigation-container {
-  width: 1200px;
+  width: 100%;
   margin: 0 auto;
   height: 70px;
 }
-
-
-.soon{
-background: #111;
-  text-align: center;
-  padding: 400px;
-
-  color: #fff;
-  font-size: 100px;
-}
-
 
 .navigation-bar {
   background-color: #fff;
