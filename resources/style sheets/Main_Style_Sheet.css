@@ -114,6 +114,8 @@ z-index: -10;
   height: 500px;
 }
 
+
+
 .slide-section{
   background: rgba(0, 0, 0, 0.8);
   color: #f1f1f1;
@@ -125,7 +127,7 @@ z-index: -10;
 .slide-section img{
   margin: 0px auto;
   height: 900px;
-  width: auto;
+  width: 100%;
 }
 
 .footer{
