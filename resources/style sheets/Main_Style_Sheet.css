@@ -64,6 +64,7 @@ max-width: 5%;
 .logo{
   padding-left: 25rem;
   max-width: 1800px;
+  
 }
 
 .icons{
@@ -208,3 +209,13 @@ z-index: -10;
     width: 100%;
   }
 }
+
+
+
+   @media only screen and (min-device-width : 320px) and (max-device-width : 480px)
+   {  
+      .mobileHide 
+      { 
+        display: none;
+      }
+    }
