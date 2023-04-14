@@ -1,0 +1,70 @@
+
+
+
+
+body{
+    background-image: url("../images/img1.jpg");
+    width: 100%;
+    background-size: cover;
+    min-height:1500px;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+
+
+.fliers-List{
+    text-align: center;
+    background: #111;
+    padding-top: 30px;
+    padding-bottom: 50px;
+    width: 100%;
+  }
+  
+  .fliers-List li{
+    list-style-type: none;
+    display:inline-block;
+    padding-left: 100px;
+    padding-bottom: 50px;
+  }
+  
+  .fliers-List li a{
+    text-decoration: none;
+  }
+  
+  .fliers-List li a h1{
+    color: #f1f1f1;
+  }
+  
+  .fliers-List img{
+    width: 100%;
+    height: 35rem;
+  }
+  
+  .fliers{
+    background-color: rgba(0, 0, 0, .55);
+  }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

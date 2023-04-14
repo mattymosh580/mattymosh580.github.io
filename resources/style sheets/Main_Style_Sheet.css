@@ -8,14 +8,6 @@ body {
   margin: 0;
 }
 
-.soon{
-  background: #111;
-    text-align: center;
-    padding: 400px;
-  
-    color: #fff;
-    font-size: 100px;
-  }
 
 /* Style the top navigation bar */
 #navigation-container {
@@ -34,6 +26,7 @@ body {
 float:left;
 max-width: 5%;
 }
+
 .navigation-bar ul {
   padding: 0px;
   margin: 0px;
@@ -119,17 +112,23 @@ z-index: -10;
   height: 35rem;
 }
 
+.fliers{
+  background-color: rgba(0, 0, 0, .55);
+}
+
 .footer{
   background:#111;
   padding:1px 0px;
+  padding-top: 15px;
   font-family: 'Play', sans-serif;
   text-align:center;
+
   }
   
   .footer .row{
-  width:100%;
-  margin:1% 0%;
-  padding:0.2% 0%;
+  width: 100%;
+  margin: 1% 0%;
+  padding: 0.1% 0%;
   color:gray;
   font-size:0.8em;
   }
@@ -150,7 +149,7 @@ z-index: -10;
   
   .footer .row ul li{
   display:inline-block;
-  margin:0px 20px;
+  margin:0px 10px;
   }
   
   .footer .row a i{
