@@ -17,28 +17,25 @@ body{
     text-align: center;
     background: #111;
     padding-top: 30px;
-    padding-bottom: 50px;
     width: 100%;
+    display: grid;
+    grid-template-rows: auto auto;
+    grid-template-columns: auto auto auto;
   }
   
-  .fliers-List li{
+  .fliers-List div{
     list-style-type: none;
     display:inline-block;
     padding-left: 100px;
     padding-bottom: 50px;
   }
   
-  .fliers-List li a{
+  .fliers-List div a{
     text-decoration: none;
   }
   
-  .fliers-List li a h1{
-    color: #f1f1f1;
-  }
-  
   .fliers-List img{
-    width: 100%;
-    height: 35rem;
+    width: 80%;
   }
   
   .fliers{
