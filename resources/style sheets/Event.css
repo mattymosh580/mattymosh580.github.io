@@ -18,9 +18,10 @@ body{
     background: #111;
     padding-top: 30px;
     width: 100%;
+
     display: grid;
     grid-template-rows: auto auto;
-    grid-template-columns: auto auto auto;
+    grid-template-columns: 37rem 37rem 37rem;
   }
   
   .fliers-List div{
@@ -35,7 +36,7 @@ body{
   }
   
   .fliers-List img{
-    width: 80%;
+    width: 100%;
   }
   
   .fliers{
